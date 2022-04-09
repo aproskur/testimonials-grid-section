@@ -24,6 +24,11 @@ body{
   place-content: center;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .card.background-accent-dark {
   background-color: var(--clr-accent-dark);
 }
@@ -61,6 +66,7 @@ body{
 .cards {
   display: grid;
   grid-gap: 1.5rem;
+  padding: 5em;
 }
 
 .card {
@@ -69,7 +75,6 @@ body{
   display: grid;
   grid-template-columns: 70px 2fr;
   justify-content: left;
-
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
